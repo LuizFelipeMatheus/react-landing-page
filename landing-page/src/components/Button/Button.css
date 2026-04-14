@@ -1,0 +1,24 @@
+/* condição no btn se true ou false no filled*/
+
+.btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: var(--border-radius-pattern);
+    color: var(--neutral-color);
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn.filled {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn.border {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+ 
