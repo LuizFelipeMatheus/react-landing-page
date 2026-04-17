@@ -1,0 +1,17 @@
+.funcionalidade-item {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    gap: 12px;
+    border-radius: var(--border-radius-pattern);
+    background-color: var(--white-color);
+    
+}
+
+.Icons-functions{
+    align-items: start;
+    font-size: 34px;
+}
+

@@ -1,0 +1,28 @@
+.pilar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.pilar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+.pilar-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--black-color);
+    line-height: 24x;
+}
+
+.pilar-description {
+    font-size: 0.875rem;
+    color: var(--neutral-color);
+    line-height: 1.5;
+}
